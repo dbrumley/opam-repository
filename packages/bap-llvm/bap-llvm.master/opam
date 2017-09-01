@@ -11,7 +11,7 @@ build: [
   ["./configure"
   "--prefix=%{prefix}%"
   "--with-cxx=`which clang++`"
-  "--with-llvm-version=%{conf-bap-llvm:version}%"
+  "--with-llvm-version=%{conf-bap-llvm:package-version}%"
   "--with-llvm-config=%{conf-bap-llvm:config}%"
   "--enable-llvm"]
   [make]
