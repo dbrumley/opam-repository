@@ -33,15 +33,15 @@ depends: [
   "base-unix"
   "bap-future"
   "camlzip" {>= "1.07"}
-  "core_kernel" {= "v0.9.0"}
+  "core_kernel" {>= "v0.9.0" & < "v0.10"}
   "fileutils"
   "graphlib"
   "oasis" {build & = "0.4.7"}
   "ocamlfind" {>= "1.5.6" & < "2.0"}
-  "ppx_jane" {= "v0.9.0"}
+  "ppx_jane" {>= "v0.9.0" & < "v0.10"}
   "regular"
   "uri"
-  "utop"     {>= "1.19.3"}
+  "utop"     {= "1.19.3"}
   "uuidm"
   "zarith"
   "cmdliner" {>= "0.9.8" & < "1.1"}
