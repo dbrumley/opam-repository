@@ -33,7 +33,7 @@ depends: [
   "base-unix"
   "bap-future"
   "camlzip" {>= "1.07"}
-  "core_kernel" {>= "113.33.00"}
+  "core_kernel" {>= "113.33.00" & < "v0.9.0" }
   "fileutils"
   "graphlib"
   "oasis" {build & = "0.4.7"}
@@ -41,10 +41,10 @@ depends: [
   "ppx_jane" {>= "113.33.00" & < "113.34.00"}
   "regular"
   "uri"
-  "utop"
+  "utop" {= "1.19.3"}
   "uuidm"
   "zarith"
-  "cmdliner" {<= "1.2"}
+  "cmdliner" {>= "0.9.8"}
   "ogre"
   "monads"
 ]
