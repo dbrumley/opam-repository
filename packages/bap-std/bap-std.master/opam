@@ -44,7 +44,7 @@ depends: [
   "utop"     {= "1.19.3"}
   "uuidm"
   "zarith"
-  "cmdliner" {>= "0.9.8" & < "1.1"}
+  "cmdliner" {>= "0.9.8"}
   "ogre"
   "monads"
 ]
